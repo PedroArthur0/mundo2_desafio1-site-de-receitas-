@@ -3,11 +3,11 @@
 
 /* Define custom CSS variables for colors */
 :root {
-    --primary-color: rgb(234, 126, 18);             /* #800000 */
-    --secondary-color: FireBrick;        /* #B22222 */
-    --background-color: rgb(221, 216, 52);     /* #FFA07A */
-    --container-color: rgb(84, 82, 22);        /* #FFDAB9 */
-    --emphasize-color: rgb(64, 13, 13);        /* #DAA520 */
+    --primary-color: rgb(234, 126, 18);             /* #EA7E12 */
+    --secondary-color: FireBrick;                    /* #B22222 */
+    --background-color: rgb(221, 216, 52);            /* #DDD834 */
+    --container-color: rgb(84, 82, 22);              /* #545216 */
+    --emphasize-color: rgb(64, 13, 13);              /* #40150D */
 }
 
 /* Apply styles to the entire body */
@@ -15,8 +15,8 @@ body {
     background-color: var(--background-color) !important;
     font-family: Verdana, Tahoma, sans-serif !important;
     overflow-y: auto;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 /* Style the navigation bar */
